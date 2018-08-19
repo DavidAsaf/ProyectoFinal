@@ -6,7 +6,7 @@
 package Formularios;
 
 import registro.Rusuario;
-
+//prueba
 /**
  *
  * @author asafamaya
