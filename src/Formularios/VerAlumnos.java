@@ -8,7 +8,7 @@ package Formularios;
 //import static Formularios.NuevoAlumno.PASSWORD;
 //import static Formularios.NuevoAlumno.URL;
 //import static Formularios.NuevoAlumno.USERNAME;
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
