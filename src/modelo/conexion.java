@@ -9,6 +9,7 @@ import static java.lang.Class.forName;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -37,6 +38,10 @@ public class conexion {
         }
         return con;
     
+    }
+
+    public Statement createStatement() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
