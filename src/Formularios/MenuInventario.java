@@ -41,7 +41,12 @@ public class MenuInventario extends javax.swing.JFrame {
         jButton1.setText("Historial Eventos");
 
         jButton2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jButton2.setText("Ver Productos");
+        jButton2.setText("Ver Artículos");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jButton3.setText("Salida Evento");
@@ -104,6 +109,13 @@ public class MenuInventario extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        VerArticulos abrir = new VerArticulos();
+        abrir.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
